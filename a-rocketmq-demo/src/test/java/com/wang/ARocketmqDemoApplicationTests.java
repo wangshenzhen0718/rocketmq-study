@@ -4,13 +4,9 @@ import com.wang.constant.MqConstant;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
 class ARocketmqDemoApplicationTests {
 
-	@Test
+
 	void contextLoads() throws Exception{
 		DefaultMQProducer producer = new DefaultMQProducer("test-producer-group");
 		producer.setNamesrvAddr(MqConstant.NAME_SRV_ADDR);
