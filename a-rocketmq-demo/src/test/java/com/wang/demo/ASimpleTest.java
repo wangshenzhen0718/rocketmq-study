@@ -12,7 +12,11 @@ import org.apache.rocketmq.common.message.MessageExt;
 import org.junit.Test;
 
 import java.util.List;
-
+/**
+ * @Author  wsz
+ * @Description 消费者位点代表已经消费了，代理者位点代表当前位置，差值为未消费个数
+ * @Date   2023/5/23
+ */
 public class ASimpleTest {
     @Test
     public void producer() throws Exception {
