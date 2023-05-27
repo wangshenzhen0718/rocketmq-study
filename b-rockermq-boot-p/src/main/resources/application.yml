@@ -1,4 +1,4 @@
 rocketmq:
-  name-server: 192.168.1.178
+  name-server: 192.168.1.178:9876
   producer:
     group: boot-producer-group
