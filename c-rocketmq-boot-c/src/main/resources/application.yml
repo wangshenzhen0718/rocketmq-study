@@ -2,3 +2,5 @@ server:
   port: 8081
 rocketmq:
   name-server: 192.168.206.186:9876
+  consumer:
+    group: consumer_group_name
